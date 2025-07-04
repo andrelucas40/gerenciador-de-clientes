@@ -112,7 +112,7 @@ Para facilitar o uso da aplicação sem precisar executar o Python no terminal, 
    - Execute o comando abaixo para criar um executável a partir de `application.py`:
      ```bash
      pyinstaller --onefile --noconsole application.py
-     ```
+     ``` 
    - Explicação:
      - `--onefile`: Gera um único arquivo executável (mais fácil de compartilhar).
      - `--noconsole`: Impede que uma janela de terminal seja aberta ao executar o programa (útil para aplicações com interface gráfica).
@@ -123,7 +123,7 @@ Para facilitar o uso da aplicação sem precisar executar o Python no terminal, 
    - Clique duas vezes no arquivo `application.exe` (ou execute pelo terminal).
    - A aplicação abrirá como antes, mas sem precisar do Python instalado no computador.
 
-4. **Dica**:
+4. **Dica**: 
    - O executável pode ser grande (cerca de 50-100 MB) porque inclui o Python e todas as dependências.
    - Para compartilhar, copie o arquivo `.exe` (e o arquivo `clientes.db`, se já tiver dados) para outros computadores.
 

@@ -1,4 +1,4 @@
-__pycache__/
+*.db
 *.pyc
 *.db
 *.log
@@ -8,4 +8,4 @@ __pycache__/
 *.pyd
 .venv/
 *.docx
-
+__pycache__/
